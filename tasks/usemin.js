@@ -138,7 +138,8 @@ module.exports = function (grunt) {
         grunt.verbose.writeln(chalk.bold('Processing as ' + options.type.toUpperCase() + ' - ') + chalk.cyan(filename));
 
         // Our revved version locator
-        var content = handler.process(filename, options.assetsDirs);
+        // options을 넘겨서 jsp-el에 대해 처리할 수 있도록 개선 
+        var content = handler.process(filename, options.assetsDirs, options);
 
         // write the new content to disk
         grunt.file.write(filename, content);
