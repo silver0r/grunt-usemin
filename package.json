@@ -1,9 +1,9 @@
 {
-  "name": "grunt-usemin",
-  "version": "3.1.1",
+  "name": "grunt-usemin-jspel",
+  "version": "3.1.2",
   "license": "BSD-2-Clause",
-  "author": "Yeoman",
-  "description": "Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views)",
+  "author": "silver0r",
+  "description": "grunt-usemin fork project - Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views)",
   "keywords": [
     "gruntplugin",
     "usemin",
@@ -12,7 +12,10 @@
     "css",
     "optimize"
   ],
-  "repository": "yeoman/grunt-usemin",
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/silver0r/grunt-usemin-jspel.git"
+  },  
   "scripts": {
     "test": "grunt test"
   },
